@@ -1,0 +1,326 @@
+/* cabeçalho e navegação */
+header {
+  background-color: #3A2D32;
+  color: #A2AD91;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+/* Estilos globais para o site */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #A2AD91;
+}
+
+/* Estilizando a barra de rolagem no Google Chrome e Safari */
+body::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #A2AD91; /* Cor da parte deslizante da barra de rolagem */
+  border-radius: 6px; /* Borda arredondada para a parte deslizante */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #3A2D32; /* Cor da área de fundo da barra de rolagem */
+}
+
+
+/* Estilos para o cabeçalho e o conteúdo principal */
+header, main {
+  padding: 10px;
+}
+
+.content {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.container {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.map-container {
+  padding: 20px;
+}
+
+.BeGreen-imagem {
+  display: block;
+  margin: auto; 
+  max-width: 90%; 
+}
+
+.PinkFarms-imagem {
+  display: block;
+  margin: auto; 
+  max-width: 90%; 
+}
+
+.FazendaCubo-imagem {
+  display: block;
+  margin: auto; 
+  max-width: 90%; 
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: left;
+}
+
+nav li {
+  margin: 0 20px;
+  justify-content: left;
+}
+
+nav a {
+  color: #A2AD91;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+/* Estilos para as seções */
+section {
+  padding: 20px;
+  text-align: center;
+  background-color: #A2AD91;
+  color: #3A2D32;
+}
+
+section1 {
+  text-align: center;
+  background-color: #3A2D32;
+  color: #A2AD91;
+  margin-bottom: 0%;
+}
+
+#sobre {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+#impacto {
+  padding-top: 10px;
+}
+
+#pink-farms {
+  text-align: justify;
+}
+
+#fazenda-cubo {
+  text-align: justify;
+}
+
+#begreen {
+  text-align: justify;
+  margin: 0;
+}
+
+#impacto h4 {
+  margin: 0; 
+}
+
+#impacto p {
+  text-align: justify;
+}
+
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+h4 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h5 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0;
+}
+
+h6 {
+  font-size: 24px;
+  text-align: center;
+}
+
+h7 {
+  font-size: 15px;
+  text-align: justify;
+}
+
+h8 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #3A2D32;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  color: #ffd700;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #A2AD91;
+} 
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3A2D32;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding-top: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute; 
+  background-color: #3A2D32;
+  box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding-top: 10px;
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+
+footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  background: #3A2D32;
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  color: #ffd700;
+} 
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.grid-container {
+  display: grid; /*  Define que vai obedecer regra de grid */
+  grid-template-columns: auto auto auto; /*  Define que vão ser 3 colunas */
+  padding: 10px;
+  font-size: 16px;
+
+}
+
+.grid-item {
+  border: #3A2D32;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 0;
+
+  }
+
+
+  .grid-title {
+    grid-column: span 3; /* Define que a div que tiver essa classe vai ocupar espeço de 3 colunas */
+    text-align: center;
+    padding-left: 0;
+    padding-right: 20px;
+  }
+
+
+a:-webkit-any-link {
+  color: #ffd700;
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: justify;
+}
+
+ul1 {
+  list-style-type: none; 
+}
+
+ul1 li::marker {
+  content: "●"; 
+  font-size: 25px; 
+  color: #FF1493;
+  padding-right: 6%;
+}
+
+ul2 {
+  list-style-type: none;
+}
+
+ul2 li::marker {
+  content: "▶"; 
+  font-size: 20px; 
+  color: #3cb371;
+  padding-right: 7%;
+}
+
+ul3 {
+  list-style-type: none; 
+}
+
+ul3 li::marker {
+  content: "❒";
+  font-size: 20px; 
+  color: #00bfff;
+}
